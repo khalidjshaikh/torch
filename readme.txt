@@ -142,5 +142,5 @@ python3 gen.py # ONNX AI model generated
 
 # ONNX Runtime (ORT) is a production-grade AI engine that serves as a cross-platform accelerator for machine learning inference and training
 
-python3 ort.py # Executed on the CoreML Inference AI processor.
+python3 ort.py # Executed on the CoreML Inference AI processor, a type of NPU (Neural Processing Unit).
 Output Value: [1.3333334]
