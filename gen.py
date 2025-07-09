@@ -14,4 +14,4 @@ model = AddModel()
 dummy_input1 = torch.randn(1)
 dummy_input2 = torch.randn(1)
 
-torch.onnx.export(model, (input_one, input_two), "add_model.onnx")
+torch.onnx.export(model, (dummy_input1, dummy_input2), "add_model.onnx")
