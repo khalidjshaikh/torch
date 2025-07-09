@@ -15,7 +15,7 @@ Output Value: [1.3333334]
 
 macOS 15.5 M1
 
-# macOS systemw
+# macOS system
 which python3
 /usr/bin/python3
 
