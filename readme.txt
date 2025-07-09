@@ -1,3 +1,18 @@
+# PyTorch is an open-source machine learning framework primarily used for building and training deep learning models
+
+# ONNX Runtime (ORT) is a production-grade AI engine that serves as a cross-platform accelerator for machine learning inference and training
+
+python3 gen.py # ONNX AI model generated
+# add_model.onnx
+![](images/Screenshot 2025-07-09 at 10.22.12 AM.png)
+
+# ONNX Runtime (ORT) is a production-grade AI engine that serves as a cross-platform accelerator for machine learning inference and training
+
+python3 ort.py # Executed on the CoreML Inference AI processor, a type of NPU (Neural Processing Unit).
+Output Value: [1.3333334]
+
+---
+
 macOS 15.5 M1
 
 # macOS systemw
