@@ -1,5 +1,4 @@
-# SEO hello world onnx example onnx runtime
-# conda activate test
+# Machine learning framework used to generate open Neural Network Exchange models on ONNX Runtime (ORT) which is a production grade AI engine running on an Apple Silicon accelerated machine learning inference AI processor, a type of NPU (Neural processing unit).
 
 import torch
 import torch.nn as nn
