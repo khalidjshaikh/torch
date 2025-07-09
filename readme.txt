@@ -24,7 +24,9 @@ Python 3.9.6
 
 brew install python3 pyenv
 
-pip3 install torch onnx
+pip3 install torch onnx onnxruntime
+
+---
 
 # homebrew
 which python3
@@ -36,9 +38,11 @@ Python 3.13.5
 pyenv install 3.14-dev
 pyenv global 3.14-dev
 
-pip3 install torch onnx --break-system-packages
+pip3 install torch onnx onnx runtime --break-system-packages
 
-# pyenv
+---
+
+# pyenv 3.14
 pyenv global 3.14-dev
 
 python3 --version
@@ -50,13 +54,18 @@ which python3
 pip3 intall torch
 ## ERROR: No matching distribution found for torch
 
-# pyenv
+---
+
+# pyenv 3.13
 pyenv global 3.13
 
 python3 --version
 Python 3.13.5
 
-pip3 install torch onnx
+which python3
+/Users/$USER/.pyenv/shims/python3
+
+pip3 install torch onnx onnxruntime
 
 ---
 
