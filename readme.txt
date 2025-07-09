@@ -1,3 +1,5 @@
+Machine learning framework used to generate open Neural Network Exchange models on ONNX Runtime (ORT) which is a production grade AI engine running on an Apple Silicon accelerated machine learning inference AI processor, a type of NPU (Neural processing unit).
+
 # PyTorch is an open-source machine learning framework primarily used for building and training deep learning models
 
 # ONNX Runtime (ORT) is a production-grade AI engine that serves as a cross-platform accelerator for machine learning inference and training
