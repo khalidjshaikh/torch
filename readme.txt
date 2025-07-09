@@ -26,6 +26,10 @@ brew install python3 pyenv
 
 pip3 install torch onnx onnxruntime
 
+python3 gen.py 
+python3 ort.py 
+Output Value: [1.3330078]
+
 ---
 
 # homebrew
@@ -39,6 +43,10 @@ pyenv install 3.14-dev
 pyenv global 3.14-dev
 
 pip3 install torch onnx onnx runtime --break-system-packages
+
+python3 gen.py 
+python3 ort.py 
+Output Value: [1.3330078]
 
 ---
 
@@ -67,9 +75,11 @@ which python3
 
 pip3 install torch onnx onnxruntime
 
----
+python3 gen.py 
+python3 ort.py 
+Output Value: [1.3330078]
 
-pip3 install torch
+---
 
 pip3 install torch
 Collecting torch
